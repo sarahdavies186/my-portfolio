@@ -1,0 +1,9 @@
+:root {
+  --primary-font-family: "Syne", sans-serif;
+  --secondary-font-family: "Sen", sans-serif;
+}
+
+h1 {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+}
