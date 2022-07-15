@@ -17,6 +17,7 @@
 }
 
 /* body */
+/* D2E9F6 */
 body {
   background-color: #fbf9f5;
 }
@@ -32,6 +33,7 @@ body {
   font-family: tangerineregular;
   font-weight: 500;
   font-size: 100px;
+  font-display: block;
 }
 
 .hero h2 {
@@ -81,8 +83,22 @@ body {
   margin-left: 18px;
 }
 
+/*about-page*/
+.about-section {
+  padding: 120px 140px;
+}
+
+.about-text {
+  padding-right: 100px;
+}
+
+.about-text h1 {
+  font-family: tangerineregular;
+  font-weight: 200;
+  font-size: 70px;
+}
 /*mobile responsive*/
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .hero {
     padding: 160px 20px;
   }
