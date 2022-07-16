@@ -22,6 +22,38 @@ body {
   background-color: #fbf9f5;
 }
 
+/* nav bar */
+
+nav {
+  padding: 30px 70px 0 0;
+  text-align: end;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  padding: 30px;
+  font-family: var(--highlight-font-family);
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover {
+  color: #9f7159;
+  text-decoration: none;
+}
+
+nav li.active a {
+  color: #9f7159;
+}
+
 /* hero */
 .hero {
   display: flex;
@@ -45,6 +77,11 @@ body {
 .hero p {
   font-family: var(--highlight-font-family);
   font-size: 18px;
+}
+
+.hero a {
+  color: black;
+  text-decoration: none;
 }
 
 /* projects */
@@ -85,7 +122,7 @@ body {
 
 /*about-page*/
 .about-section {
-  padding: 120px 140px;
+  padding: 100px 140px;
 }
 
 .about-text {
@@ -97,10 +134,24 @@ body {
   font-weight: 200;
   font-size: 70px;
 }
+
+.about-text p {
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+}
 /*mobile responsive*/
 @media (max-width: 767px) {
+  nav {
+    padding: 30px 0px;
+  }
+
+  nav ul {
+    text-align: center;
+    padding: 0;
+  }
+
   .hero {
-    padding: 160px 20px;
+    padding: 60px 20px;
   }
 
   .hero h1 {
@@ -125,5 +176,22 @@ body {
 
   .project-description {
     padding-top: 50px;
+  }
+
+  .about-section {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .about-text {
+    padding: 0 20px;
+    margin: 0px;
+  }
+
+  .about-photo {
+    display: block;
+    margin: 0 auto;
+    padding: 0 40px;
   }
 }
