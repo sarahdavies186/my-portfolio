@@ -1,12 +1,13 @@
 /* import fonts */
 @font-face {
-  font-family: "tangerineregular";
-  src: url("tangerine-webfont.woff2") format("woff2"),
-    url("tangerine-webfont.woff") format("woff"),
-    url("tangerine-webfont.ttf") format("truetype"),
-    url("tangerine-webfont.svg#tangerineregular") format("svg");
+  font-family: "Tangerine";
+  src: url("TangerineRegular.woff2") format("woff2"),
+    url("TangerineRegular.woff") format("woff"),
+    url("TangerineRegular.ttf") format("truetype"),
+    url("TangerineRegular.svg#TangerineRegular") format("svg");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 /* root */
@@ -62,10 +63,11 @@ nav li.active a {
 }
 
 .hero h1 {
-  font-family: tangerineregular;
+  font-family: "Tangerine";
+  font-weight: normal;
+  font-style: normal;
   font-weight: 500;
   font-size: 100px;
-  font-display: block;
 }
 
 .hero h2 {
