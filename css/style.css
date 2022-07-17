@@ -1,20 +1,32 @@
 /* import fonts */
 @font-face {
   font-family: "Tangerine";
-  src: url("TangerineRegular.woff2") format("woff2"),
-    url("TangerineRegular.woff") format("woff"),
-    url("TangerineRegular.ttf") format("truetype"),
-    url("TangerineRegular.svg#TangerineRegular") format("svg");
+  src: url(../fonts/TangerineRegular.woff2) format("woff2"),
+    url(../fonts/TangerineRegular.woff) format("woff"),
+    url(../fonts/TangerineRegular.ttf) format("truetype"),
+    url(...fonts/TangerineRegular.svg#TangerineRegular) format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+@font-face {
+  font-family: "sportinggrotesqueregular";
+  src: url(../fonts/sporting_grotesque-regular_web-webfont.woff2)
+      format("woff2"),
+    url(../fonts/sporting_grotesque-regular_web-webfont.woff) format("woff"),
+    url(../fonts/sporting_grotesque-regular_web-webfont.ttf) format("truetype"),
+    url(../fonts/sporting_grotesque-regular_web-webfont.svg#sporting_grotesqueregular)
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* root */
 :root {
   --primary-font-family: "Syne", sans-serif;
   --secondary-font-family: "Sen", sans-serif;
-  --highlight-font-family: "Sporting Grotesque", sans-serif;
+  --highlight-font-family: "sportinggrotesqueregular", sans-serif;
 }
 
 /* body */
@@ -63,10 +75,9 @@ nav li.active a {
 }
 
 .hero h1 {
-  font-family: "Tangerine";
+  font-family: "tangerine";
   font-weight: normal;
   font-style: normal;
-  font-weight: 500;
   font-size: 100px;
 }
 
